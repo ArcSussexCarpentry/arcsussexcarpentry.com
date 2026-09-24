@@ -1,0 +1,328 @@
+.loft-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/loft-conversions-hero.webp") center / cover no-repeat;
+}
+
+.loft-hero .page-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.loft-hero .page-hero__content {
+    position: relative;
+    z-index: 1;
+}
+
+.loft-intro {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.loft-intro__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 3rem;
+}
+
+.loft-intro__heading h2 {
+    margin-bottom: 0;
+}
+
+.loft-intro__content {
+    width: min(100%, 900px);
+    margin-inline: auto;
+}
+
+.loft-intro__content p {
+    margin-bottom: 1.25rem;
+}
+
+.loft-gallery {
+    padding: 0 0 5rem;
+}
+
+.loft-gallery__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+.loft-gallery__heading .eyebrow {
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.loft-gallery__heading h2 {
+    margin-bottom: 0;
+}
+
+.loft-gallery__grid {
+    width: min(100%, 950px);
+    margin-inline: auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.loft-gallery__item {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+.loft-gallery__item img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.loft-gallery__item--01 img {
+    aspect-ratio: 4 / 5;
+}
+
+.loft-gallery__cta {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.loft-gallery__cta .button {
+    margin-top: 0;
+}
+
+.loft-properties {
+    padding: 3rem 0 5rem;
+}
+
+.loft-properties__inner {
+    width: min(100% - 2rem, 950px);
+}
+
+.loft-properties__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 1.5rem;
+    text-align: center;
+}
+
+.loft-properties__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.loft-properties__copy {
+    width: min(100%, 850px);
+    margin-inline: auto;
+    text-align: center;
+}
+
+.loft-properties__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.loft-properties__copy a {
+    color: var(--colour-gold);
+}
+
+.loft-properties__copy a:hover {
+    color: var(--colour-white);
+}
+
+.loft-properties__gallery {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.loft-properties__gallery figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+.loft-properties__gallery img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.loft-properties__cta {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.loft-properties__cta .button {
+    margin-top: 0;
+}
+
+.loft-build, .loft-finishing {
+    padding: 3rem;
+    text-align: center;
+}
+
+.tick-list {
+    margin: 1rem 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.tick-list li {
+    position: relative;
+    margin-bottom: 0.75rem;
+    padding-left: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.55;
+}
+
+.tick-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--colour-cream);
+    color: var(--colour-gold);
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.loft-sussex {
+    padding: 3rem 0 5rem;
+}
+
+.loft-sussex__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.loft-sussex__copy {
+    text-align: center;
+}
+
+.loft-sussex__copy .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.loft-sussex__copy h2 {
+    margin-bottom: 1.25rem;
+}
+
+.loft-sussex__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.loft-sussex__copy .button {
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+    .loft-intro,
+    .loft-properties,
+    .loft-build,
+    .loft-finishing,
+    .loft-costs,
+    .loft-sussex {
+        padding-top: 4rem;
+    }
+
+    .loft-intro {
+        padding-bottom: 6rem;
+    }
+
+    .loft-intro__heading {
+        margin-bottom: 4rem;
+    }
+
+    .loft-gallery {
+        padding-bottom: 6rem;
+    }
+
+    .loft-gallery__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .loft-gallery__item--01 {
+        grid-row: span 2;
+    }
+
+    .loft-gallery__item--01 img {
+        height: 100%;
+        min-height: 430px;
+    }
+
+    .loft-gallery__item--02 img,
+    .loft-gallery__item--03 img,
+    .loft-gallery__item--04 img,
+    .loft-gallery__item--05 img {
+        height: 100%;
+        min-height: 205px;
+    }
+
+    .loft-properties__gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .loft-properties__gallery img {
+        height: 100%;
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .loft-intro {
+        padding-bottom: 7rem;
+    }
+
+    .loft-gallery,
+    .loft-properties,
+    .loft-build,
+    .loft-finishing,
+    .loft-costs,
+    .loft-sussex {
+        padding-bottom: 7rem;
+    }
+
+    .loft-gallery__grid {
+        grid-template-columns: 1.15fr 0.85fr 0.85fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .loft-gallery__item--01 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    .loft-gallery__item--02 {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .loft-gallery__item--03 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .loft-gallery__item--04 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .loft-gallery__item--05 {
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+    }
+
+    .loft-gallery__item--01 img {
+        min-height: 560px;
+    }
+
+    .loft-gallery__item--02 img,
+    .loft-gallery__item--03 img,
+    .loft-gallery__item--04 img {
+        min-height: 250px;
+    }
+
+    .loft-gallery__item--05 img {
+        min-height: 320px;
+    }
+}

@@ -1,0 +1,296 @@
+.worthing-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/carpenters-in-worthing-hero.webp") center / cover no-repeat;
+}
+
+.worthing-hero .page-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.worthing-hero .page-hero__content {
+    position: relative;
+    z-index: 1;
+}
+
+.worthing-intro {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.worthing-intro__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.worthing-intro__heading {
+    margin-bottom: 2.5rem;
+}
+
+.worthing-intro__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.worthing-intro__heading h2 {
+    margin-bottom: 0;
+}
+
+.worthing-intro__copy {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.worthing-intro__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.worthing-intro__copy a {
+    color: var(--colour-gold);
+}
+
+.worthing-intro__copy a:hover {
+    color: var(--colour-white);
+}
+
+.worthing-why {
+    padding: 3rem 0 5rem;
+}
+
+.worthing-why__inner {
+    width: min(100% - 2rem, 950px);
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.worthing-why__heading {
+    text-align: center;
+}
+
+.worthing-why__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.worthing-why__heading h2 {
+    margin-bottom: 0;
+}
+
+.worthing-why__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.worthing-why__image {
+    overflow: hidden;
+}
+
+.worthing-why__image img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.worthing-services {
+    padding: 3rem 0 5rem;
+}
+
+.worthing-services__inner {
+    width: min(100% - 2rem, 950px);
+}
+
+.worthing-services__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+.worthing-services__heading .section-line {
+    margin-bottom: 1.25rem;
+}
+
+.worthing-services__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.worthing-services__heading h2 {
+    margin-bottom: 1rem;
+}
+
+.worthing-services__heading p:last-child {
+    margin-bottom: 0;
+}
+
+.worthing-services__grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.worthing-services__grid article {
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.035);
+}
+
+.worthing-services__grid h3 {
+    margin-bottom: 0.65rem;
+    color: var(--colour-white);
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+}
+
+.worthing-services__grid p {
+    margin-bottom: 1.1rem;
+}
+
+.worthing-services__grid .service-button {
+    margin-top: 0;
+}
+
+.worthing-content-narrow {
+    width: min(100% - 2rem, 850px);
+    text-align: center;
+}
+
+.worthing-content-narrow .section-line {
+    margin-bottom: 1.25rem;
+}
+
+.worthing-content-narrow .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.worthing-content-narrow h2 {
+    margin-bottom: 1.5rem;
+}
+
+.worthing-content-narrow p {
+    margin-bottom: 1.25rem;
+}
+
+.worthing-vision {
+    padding: 3rem 0 5rem;
+}
+
+.worthing-mission {
+    padding: 3rem 0 5rem;
+}
+
+.mission-list {
+    margin: 1rem auto 1.5rem;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.mission-list li {
+    position: relative;
+    margin-bottom: 0.85rem;
+    padding-left: 2rem;
+    color: var(--colour-gold);
+    font-size: 1.15rem;
+    line-height: 1.55;
+}
+
+.mission-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--colour-cream);
+    color: var(--colour-gold);
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .worthing-intro,
+    .worthing-why,
+    .worthing-services,
+    .worthing-vision,
+    .worthing-mission {
+        padding-top: 4rem;
+    }
+
+    .worthing-intro {
+        padding-bottom: 6rem;
+    }
+
+    .worthing-why__inner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .worthing-why__heading {
+        grid-column: 1 / -1;
+    }
+
+    .worthing-why__heading {
+        margin-bottom: 0.5rem;
+    }
+
+    .worthing-why__copy {
+        align-self: center;
+    }
+
+    .worthing-why__image {
+        order: 0;
+        align-self: center;
+    }
+
+    .worthing-services {
+        padding-bottom: 6rem;
+    }
+
+    .worthing-services__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .worthing-vision,
+    .worthing-mission {
+        padding-bottom: 6rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .worthing-intro {
+        padding-bottom: 7rem;
+    }
+
+    .worthing-why,
+    .worthing-services,
+    .worthing-vision,
+    .worthing-mission {
+        padding-bottom: 7rem;
+    }
+
+    .worthing-why__inner {
+        gap: 3rem 4rem;
+    }
+
+    .worthing-why__heading {
+        margin-bottom: 0.5rem;
+    }
+
+    .worthing-why__heading h2 {
+        width: min(100%, 800px);
+        margin-inline: auto;
+    }
+
+    .worthing-why__copy {
+        padding-right: 0.5rem;
+    }
+
+    .worthing-services__grid {
+        gap: 1.25rem;
+    }
+
+    .worthing-services__grid article {
+        padding: 1.75rem;
+    }
+}

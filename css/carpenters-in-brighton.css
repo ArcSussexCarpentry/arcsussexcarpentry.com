@@ -1,0 +1,619 @@
+.carpenters-brighton-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/portfolio-garden-room-1.webp") center / cover no-repeat;
+}
+
+.carpenters-brighton-hero .page-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.carpenters-brighton-hero .page-hero__content {
+    position: relative;
+    z-index: 1;
+}
+
+.brighton-garden-room {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.brighton-garden-room__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2.5rem;
+}
+
+.brighton-garden-room__heading .eyebrow {
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.brighton-garden-room__heading h2 {
+    margin-bottom: 0.85rem;
+}
+
+.brighton-garden-room__heading p:not(.eyebrow) {
+    color: var(--colour-white);
+}
+
+.brighton-garden-room__heading .button {
+    margin-top: 0.5rem;
+}
+
+.brighton-garden-room__gallery {
+    width: min(100%, 950px);
+    margin-inline: auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.brighton-garden-room__gallery figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+.brighton-garden-room__gallery img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.brighton-intro {
+    padding: 3rem 0 5rem;
+}
+
+.brighton-intro__inner {
+    width: min(100% - 2rem, 900px);
+    text-align: center;
+}
+
+.brighton-intro__heading {
+    margin-bottom: 2.25rem;
+}
+
+.brighton-intro__heading .eyebrow {
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.brighton-intro__heading h2 {
+    margin-bottom: 1.25rem;
+}
+
+.brighton-intro__heading h3 {
+    margin-bottom: 0;
+    color: var(--colour-white);
+    font-size: 1.45rem;
+}
+
+.brighton-intro__copy {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.brighton-intro__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.brighton-intro__copy a {
+    color: var(--colour-gold);
+}
+
+.brighton-intro__copy a:hover {
+    color: var(--colour-dark);
+}
+
+.why-arc {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.why-arc__inner {
+    width: min(100% - 2rem, 950px);
+}
+
+.why-arc__heading {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.why-arc__heading .section-line {
+    margin-bottom: 1.25rem;
+}
+
+.why-arc__intro {
+    width: min(100%, 850px);
+    margin: 0 auto 2rem;
+}
+
+.why-arc__intro p {
+    margin-bottom: 1.25rem;
+}
+
+.why-arc__grid {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+}
+
+.why-arc__grid article {
+    padding: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.035);
+}
+
+.why-arc__number {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: var(--colour-gold);
+    font-family: var(--font-heading);
+    font-size: 2.6rem;
+    line-height: 1;
+}
+
+.why-arc__grid h3 {
+    margin-bottom: 0.45rem;
+    color: var(--colour-white);
+}
+
+.why-arc__grid p {
+    margin-bottom: 0;
+}
+
+.why-arc__closing {
+    width: min(100%, 850px);
+    margin: 2rem auto 0;
+}
+
+.why-arc__closing p {
+    margin-bottom: 0;
+}
+
+.garden-rooms {
+    padding: 3rem 0 5rem;
+}
+
+.garden-rooms__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.garden-rooms__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.garden-rooms__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.garden-rooms__copy {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.garden-rooms__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.garden-rooms__copy a {
+    color: var(--colour-gold);
+}
+
+.garden-rooms__copy a:hover {
+    color: var(--colour-dark);
+}
+
+.tick-list {
+    margin: 1rem 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.tick-list li {
+    position: relative;
+    margin-bottom: 0.9rem;
+    padding-left: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.55;
+}
+
+.tick-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--colour-cream);
+    color: var(--colour-gold);
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.garden-value {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.garden-value__inner {
+    width: min(100% - 2rem, 950px);
+}
+
+.garden-value__heading {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.garden-value__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.garden-value__copy {
+    width: min(100%, 850px);
+    margin: 0 auto 2rem;
+}
+
+.garden-value__copy p {
+    margin-bottom: 0;
+}
+
+.garden-value__grid {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+}
+
+.garden-value__grid article {
+    padding: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.garden-value__grid article:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.garden-value__grid span {
+    display: block;
+    margin-bottom: 0.65rem;
+    color: var(--colour-gold);
+    font-family: var(--font-heading);
+    font-size: 2.8rem;
+    line-height: 1;
+}
+
+.garden-value__grid h3 {
+    margin-bottom: 0.4rem;
+}
+
+.garden-value__grid p {
+    margin-bottom: 0;
+}
+
+.garden-value__closing {
+    width: min(100%, 850px);
+    margin: 2rem auto 0;
+}
+
+.garden-value__closing p {
+    margin-bottom: 0;
+}
+
+.garden-renovations {
+    padding: 3rem 0 5rem;
+}
+
+.garden-renovations__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.garden-renovations__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.garden-renovations__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.garden-renovations__copy {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.garden-renovations__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.tick-list--dark li::before {
+    background: var(--colour-dark);
+}
+
+.brighton-process {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.brighton-process__inner {
+    width: min(100% - 2rem, 950px);
+}
+
+.brighton-process__heading {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.brighton-process__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.brighton-process__heading h2 {
+    margin-bottom: 0;
+}
+
+.brighton-process__copy {
+    width: min(100%, 850px);
+    margin: 2rem auto;
+}
+
+.brighton-process__grid {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+}
+
+.brighton-process__grid article {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.brighton-process__grid article:last-child {
+    border-bottom: 0;
+}
+
+.brighton-process__number {
+    color: var(--colour-gold);
+    font-family: var(--font-heading);
+    font-size: 2.8rem;
+    line-height: 0.9;
+}
+
+.brighton-process__grid h3 {
+    margin-bottom: 0.4rem;
+}
+
+.brighton-process__grid p {
+    margin-bottom: 0;
+}
+
+.brighton-process__closing {
+    width: min(100%, 850px);
+    margin: 2rem auto 0;
+}
+
+.brighton-process__closing p {
+    margin-bottom: 0;
+}
+
+.brighton-coverage {
+    padding: 3rem 0 5rem;
+}
+
+.brighton-coverage__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.brighton-coverage__copy {
+    text-align: center;
+}
+
+.brighton-coverage__copy .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.brighton-coverage__copy h2 {
+    margin-bottom: 1.25rem;
+}
+
+.brighton-coverage__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.brighton-coverage__copy .button {
+    margin-top: 0.5rem;
+}
+
+.arc-difference {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.arc-difference__inner {
+    width: min(100% - 2rem, 950px);
+}
+
+.arc-difference__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2.25rem;
+}
+
+.arc-difference__heading .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.arc-difference__grid {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+}
+
+.arc-difference__grid article {
+    padding: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.035);
+}
+
+.arc-difference__grid h3 {
+    margin-bottom: 0.45rem;
+}
+
+.arc-difference__grid p {
+    margin-bottom: 0;
+}
+
+.start-project {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.start-project__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.start-project__copy {
+    width: min(100%, 850px);
+    margin-inline: auto;
+}
+
+.start-project__copy .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 1.2rem;
+}
+
+.start-project__copy h2 {
+    margin-bottom: 1.25rem;
+}
+
+.start-project__copy p {
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+
+    .brighton-garden-room,
+    .brighton-intro,
+    .why-arc,
+    .garden-rooms,
+    .garden-value,
+    .garden-renovations,
+    .brighton-process,
+    .brighton-coverage,
+    .arc-difference,
+    .start-project {
+        padding-top: 4rem;
+    }
+
+    .brighton-garden-room,
+    .why-arc,
+    .garden-rooms,
+    .garden-value,
+    .garden-renovations,
+    .brighton-process,
+    .brighton-coverage,
+    .arc-difference,
+    .start-project {
+        padding-bottom: 6rem;
+    }
+
+    .brighton-garden-room__heading {
+        margin-bottom: 3.5rem;
+    }
+
+    .brighton-garden-room__gallery {
+        grid-template-columns: 1.25fr 0.9fr;
+        align-items: stretch;
+    }
+
+    .brighton-garden-room__gallery img {
+        height: 100%;
+        min-height: 300px;
+    }
+
+    .brighton-garden-room__gallery figure:first-child img {
+        min-height: 360px;
+    }
+
+    .brighton-intro__heading {
+        margin-bottom: 3rem;
+    }
+
+    .why-arc__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-arc__grid article:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .garden-value__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 2rem;
+    }
+
+    .garden-value__grid article:nth-child(3),
+    .garden-value__grid article:nth-child(4) {
+        border-top: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .brighton-process__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 2rem;
+    }
+
+    .brighton-process__grid article:nth-child(3),
+    .brighton-process__grid article:nth-child(4) {
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .arc-difference__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .arc-difference__grid article:last-child {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .brighton-garden-room,
+    .brighton-intro,
+    .why-arc,
+    .garden-rooms,
+    .garden-value,
+    .garden-renovations,
+    .brighton-process,
+    .brighton-coverage,
+    .arc-difference,
+    .start-project {
+        padding-bottom: 7rem;
+    }
+
+    .brighton-garden-room__gallery {
+        grid-template-columns: 1.35fr 0.85fr;
+    }
+
+    .why-arc__grid,
+    .garden-value__grid,
+    .arc-difference__grid {
+        gap: 1.25rem;
+    }
+
+    .brighton-process__grid {
+        gap: 0 3rem;
+    }
+}

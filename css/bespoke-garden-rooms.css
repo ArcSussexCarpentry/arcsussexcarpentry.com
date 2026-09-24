@@ -1,0 +1,311 @@
+/* =========================
+   Bespoke garden rooms page
+   ========================= */
+.garden-rooms-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bespoke-garden-rooms-hero.webp") center / cover no-repeat;
+}
+
+.garden-rooms-heading {
+    width: min(100%, 850px);
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.garden-rooms-heading h2 {
+    margin-bottom: 1.25rem;
+}
+
+.garden-rooms-heading p:last-child {
+    margin-bottom: 0;
+}
+
+.garden-rooms-intro,
+.garden-rooms-gallery,
+.garden-rooms-local,
+.garden-rooms-climate,
+.garden-rooms-beyond,
+.garden-rooms-difference,
+.garden-rooms-service,
+.garden-rooms-final,
+.garden-rooms-faq {
+    padding: 5rem 0 6rem;
+}
+
+.garden-rooms-intro__layout,
+.garden-rooms-feature-layout {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+}
+
+.garden-rooms-copy p {
+    margin-bottom: 1.25rem;
+}
+
+.garden-rooms-image-stack {
+    display: grid;
+    gap: 1rem;
+}
+
+.garden-rooms-image-stack img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.garden-rooms-image-stack img:last-child {
+    aspect-ratio: 16 / 9;
+}
+
+.garden-rooms-gallery__grid {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.garden-rooms-gallery__grid img,
+.garden-rooms-gallery--double img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+}
+
+.garden-rooms-gallery__grid figure,
+.garden-rooms-local figure {
+    margin: 0;
+}
+
+.garden-rooms-gallery--double {
+    width: min(100%, 1000px);
+    margin: 4rem auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.garden-rooms-local__grid {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.garden-rooms-local img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.garden-rooms-local figcaption {
+    padding-top: .75rem;
+    color: var(--colour-white);
+    font-size: 1rem;
+}
+
+.garden-rooms-feature-image img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.garden-rooms-feature-copy {
+    display: grid;
+    gap: 1.75rem;
+}
+
+.garden-rooms-feature-copy article h3,
+.garden-rooms-card-grid h3,
+.garden-rooms-difference h3 {
+    margin-bottom: .75rem;
+    color: var(--colour-white);
+}
+
+.garden-rooms-card-grid {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.garden-rooms-card-grid article {
+    padding: 1.75rem;
+    border: 1px solid rgba(240, 230, 197, 0.25);
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.garden-rooms-difference__layout {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.garden-rooms-difference__layout article {
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(240, 230, 197, 0.25);
+}
+
+.garden-rooms-service__layout {
+    width: min(100%, 850px);
+}
+
+.garden-rooms-service h2:not(:first-child) {
+    margin-top: 3rem;
+}
+
+.garden-rooms-service ul {
+    margin: 1rem 0 1.5rem;
+    padding-left: 1.5rem;
+    color: var(--colour-gold);
+    font-size: 1.15rem;
+    line-height: 1.55;
+}
+
+.garden-rooms-service li {
+    margin-bottom: .75rem;
+}
+
+.garden-rooms-final__image {
+    width: min(100%, 1000px);
+    margin: 0 auto 3rem;
+    overflow: hidden;
+}
+
+.garden-rooms-final__image img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.garden-rooms-final__content {
+    width: min(100%, 850px);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.garden-rooms-faq__list {
+    width: min(100%, 850px);
+    margin: 0 auto;
+}
+
+.garden-rooms-faq details {
+    border-top: 1px solid rgba(240, 230, 197, 0.25);
+}
+
+.garden-rooms-faq details:last-child {
+    border-bottom: 1px solid rgba(240, 230, 197, 0.25);
+}
+
+.garden-rooms-faq summary {
+    padding: 1.25rem 0;
+    color: var(--colour-white);
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+.garden-rooms-faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.garden-rooms-faq summary::after {
+    content: "+";
+    float: right;
+    color: var(--colour-gold);
+    font-family: var(--font-body);
+}
+
+.garden-rooms-faq details[open] summary::after {
+    content: "−";
+}
+
+.garden-rooms-faq details p {
+    padding: 0 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+
+    .garden-rooms-intro,
+    .garden-rooms-gallery,
+    .garden-rooms-local,
+    .garden-rooms-climate,
+    .garden-rooms-beyond,
+    .garden-rooms-difference,
+    .garden-rooms-service,
+    .garden-rooms-final,
+    .garden-rooms-faq {
+        padding-top: 6rem;
+        padding-bottom: 7rem;
+    }
+
+    .garden-rooms-intro__layout,
+    .garden-rooms-feature-layout {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .garden-rooms-intro__layout,
+    .garden-rooms-feature-layout {
+        gap: 5rem;
+    }
+
+    .garden-rooms-difference__layout {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .garden-rooms-intro,
+    .garden-rooms-gallery,
+    .garden-rooms-local,
+    .garden-rooms-climate,
+    .garden-rooms-beyond,
+    .garden-rooms-difference,
+    .garden-rooms-service,
+    .garden-rooms-final,
+    .garden-rooms-faq {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .garden-rooms-heading {
+        margin-bottom: 2rem;
+    }
+
+    .garden-rooms-gallery__grid,
+    .garden-rooms-gallery--double,
+    .garden-rooms-local__grid,
+    .garden-rooms-card-grid,
+    .garden-rooms-difference__layout {
+        grid-template-columns: 1fr;
+    }
+
+    .garden-rooms-gallery--double {
+        margin-top: 2rem;
+    }
+
+    .garden-rooms-card-grid {
+        gap: 1rem;
+    }
+
+    .garden-rooms-card-grid article {
+        padding: 1.5rem;
+    }
+
+    .garden-rooms-faq summary {
+        font-size: 1.2rem;
+    }
+}

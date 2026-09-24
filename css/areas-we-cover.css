@@ -1,0 +1,103 @@
+.areas-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/areas-we-cover-hero.webp") center / cover no-repeat;
+}
+
+.areas-intro {
+    padding: 4rem 0 3rem;
+}
+
+.areas-intro__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.areas-list-heading {
+    width: min(100%, 850px);
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+.areas-intro__heading h2 {
+    color: var(--colour-white);
+}
+
+.areas-intro__content {
+    width: min(100%, 900px);
+    margin-inline: auto;
+}
+
+.areas-intro__content p {
+    margin-bottom: 1.25rem;
+}
+
+.areas-intro__content a {
+    color: var(--colour-gold);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.areas-intro__content a:hover {
+    color: var(--colour-cream);
+}
+
+.areas-list-section {
+    padding: 2rem 0 4rem;
+}
+
+.areas-list-section--west {
+    padding-top: 1rem;
+}
+
+.areas-list {
+    width: min(100%, 950px);
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem 1.5rem;
+    list-style: none;
+}
+
+.areas-list li {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(240, 230, 197, 0.3);
+    color: var(--colour-white);
+    font-size: 1.05rem;
+}
+
+.areas-list li a {
+    color: var(--colour-gold);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.areas-list li a:hover {
+    color: var(--colour-white);
+}
+
+.areas-final-cta {
+    min-height: 280px;
+}
+
+@media (min-width: 768px) {
+    .areas-list-section {
+        padding-bottom: 5rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .areas-intro {
+        padding: 4rem 0 5rem;
+    }
+
+    .areas-list-section {
+        padding-bottom: 6rem;
+    }
+
+    .areas-list {
+        max-width: 1000px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem 2rem;
+    }
+}

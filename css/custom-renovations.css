@@ -1,0 +1,332 @@
+.custom-renovations-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/RenovationsAndCustomBuilds.webp") center / cover no-repeat;
+}
+
+.custom-renovations-hero .page-hero__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custom-renovations-hero .page-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.custom-renovations-hero .page-hero__content {
+    position: relative;
+    z-index: 1;
+}
+
+.custom-intro {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.custom-intro__heading {
+    width: min(100%, 850px);
+    margin: 0 auto 3rem;
+}
+
+.custom-intro__heading h2 {
+    margin-bottom: 0;
+}
+
+.custom-intro__content {
+    width: min(100%, 900px);
+    margin-inline: auto;
+}
+
+.custom-intro__content p {
+    margin-bottom: 1.25rem;
+}
+
+.custom-intro__content a:not(.service-button) {
+    color: var(--colour-gold);
+}
+
+.custom-intro__content a:not(.service-button):hover {
+    color: var(--colour-white);
+}
+
+.custom-intro__button {
+    margin-top: 0.75rem;
+}
+
+.custom-feature-image {
+    padding: 0 0 4rem;
+}
+
+.custom-feature-image__wrapper {
+    width: min(100%, 950px);
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.custom-feature-image__wrapper img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.custom-gallery {
+    padding: 2rem 0 5rem;
+}
+
+.custom-gallery__grid {
+    display: grid;
+    gap: 1rem;
+    width: min(100%, 950px);
+    margin-inline: auto;
+}
+
+.custom-gallery__item {
+    margin: 0;
+    overflow: hidden;
+}
+
+.custom-gallery__item img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.custom-gallery__item--large img {
+    aspect-ratio: 16 / 9;
+}
+
+.custom-gallery__item figcaption {
+    padding: 0.9rem 1rem;
+    background: rgba(56, 52, 47, 0.92);
+    color: var(--colour-white);
+    font-size: 1rem;
+}
+
+.renovation-feature {
+    padding: 3rem 0 5rem;
+}
+
+.renovation-feature__top {
+    width: min(100%, 950px);
+    margin: 0 auto 2.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.renovation-number {
+    color: var(--colour-gold);
+    font-family: var(--font-heading);
+    font-size: clamp(4rem, 13vw, 7rem);
+    line-height: 0.8;
+}
+
+.renovation-feature__top .eyebrow {
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.renovation-feature__top h2 {
+    margin-bottom: 0;
+}
+
+.renovation-feature__grid {
+    width: min(100%, 950px);
+    margin-inline: auto;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.renovation-feature__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.renovation-feature__actions .button {
+    margin-top: 0;
+}
+
+.renovation-feature__image {
+    overflow: hidden;
+}
+
+.renovation-feature__image img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.custom-gallery--second {
+    padding-top: 3rem;
+}
+
+.custom-gallery__heading {
+    width: min(100%, 850px);
+    margin-bottom: 2.5rem;
+}
+
+.custom-gallery__heading h2 {
+    margin-bottom: 0.9rem;
+}
+
+.custom-gallery__heading p {
+    color: var(--colour-white);
+}
+
+.custom-gallery__grid--three {
+    grid-template-columns: 1fr;
+}
+
+.custom-gallery__grid--three .custom-gallery__item img {
+    aspect-ratio: 16 / 10;
+}
+
+.custom-gallery__cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.custom-gallery__cta .button {
+    margin-top: 0;
+}
+
+.coastal {
+    padding: 3rem 0 5rem;
+}
+
+.coastal__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.coastal h2 {
+    margin-bottom: 1.75rem;
+    text-align: center;
+}
+
+.coastal .section-line {
+    border-color: rgba(56, 52, 47, 0.8);
+}
+
+.custom-conclusion {
+    padding: 3rem 0 5rem;
+    text-align: center;
+}
+
+.custom-conclusion__inner {
+    width: min(100% - 2rem, 900px);
+}
+
+.custom-conclusion__copy h2 {
+    margin-bottom: 1.25rem;
+}
+
+.custom-conclusion__copy p {
+    margin-bottom: 1.25rem;
+}
+
+.custom-conclusion__copy a:not(.button) {
+    color: var(--colour-gold);
+}
+
+.custom-conclusion__copy a:not(.button):hover {
+    color: var(--colour-white);
+}
+
+.custom-conclusion__copy .button {
+    margin-top: 0.5rem;
+}
+
+.custom-renovations-cta {
+    min-height: 300px;
+}
+
+@media (min-width: 768px) {
+    .custom-intro {
+        padding-top: 4rem;
+    }
+
+    .custom-intro__heading {
+        margin-bottom: 4rem;
+    }
+
+    .custom-feature-image {
+        padding-bottom: 5rem;
+    }
+
+    .custom-gallery__grid {
+        grid-template-columns: 1.35fr 0.85fr;
+        align-items: stretch;
+    }
+
+    .custom-gallery__item--large img,
+    .custom-gallery__item img {
+        height: 100%;
+        min-height: 250px;
+    }
+
+    .custom-gallery__grid--three {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .renovation-feature {
+        padding-top: 4rem;
+    }
+
+    .renovation-feature__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .renovation-feature__image {
+        order: -1;
+    }
+
+    .coastal {
+        padding: 4rem 0 6rem;
+    }
+
+    .custom-conclusion {
+        padding: 4rem 0 6rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .custom-intro {
+        padding-bottom: 6rem;
+    }
+
+    .custom-feature-image {
+        padding-bottom: 6rem;
+    }
+
+    .custom-gallery {
+        padding-bottom: 6rem;
+    }
+
+    .renovation-feature {
+        padding: 5rem 0 6rem;
+    }
+
+    .custom-gallery__grid--three {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .custom-gallery__grid--three .custom-gallery__item img {
+        aspect-ratio: 16 / 10;
+    }
+
+    .coastal {
+        padding: 5rem 0 7rem;
+    }
+
+    .custom-conclusion {
+        padding: 5rem 0 7rem;
+    }
+}
