@@ -1,5 +1,5 @@
 .areas-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/areas-we-cover-hero.webp") center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url("../images/areas-we-cover-hero.webp") center / cover no-repeat;
 }
 
 .areas-intro {

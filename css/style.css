@@ -128,19 +128,19 @@ small, strong {
   position: absolute;
   inset: 0 0 auto;
   z-index: 10;
+  width: 100%;
 }
 
 .header-inner {
-  min-height: 125px;
   padding-top: 1rem;
   display: flex;
-  align-items: flex-start;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .logo {
-  flex: 0 0 90px;
-  text-decoration: none;
+  flex: 0 0 auto;
 }
 
 .logo img {
@@ -150,13 +150,11 @@ small, strong {
 }
 
 .main-nav {
-  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 0.45rem 0.7rem;
-  padding-top: 1.8rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding-top: 0.5rem;
 }
 
 .main-nav a {
@@ -172,7 +170,7 @@ small, strong {
    Hero
    ========================= */
 .homepage-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/HomepageHero.webp") center / cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url("../images/HomepageHero.webp") center / cover no-repeat;
 }
 
 .hero {
@@ -201,14 +199,11 @@ small, strong {
 
 .hero-content {
   position: relative;
-  z-index: 1;
-  width: min(100% - 2rem, 850px);
-  padding: 11rem 1rem 3rem;
+  width: min(100%, 850px);
   color: var(--colour-white);
 }
 
 .eyebrow {
-  margin-bottom: 1.5rem;
   color: var(--colour-gold);
   font-family: var(--font-heading);
   font-size: 2rem;
@@ -710,12 +705,8 @@ cite {
   place-items: center;
   overflow: hidden;
   text-align: center;
-}
+  padding: 19rem 1rem 4rem;
 
-.page-hero__content {
-  width: min(100% - 2rem, 850px);
-  padding: 11rem 1rem 4rem;
-  color: var(--colour-white);
 }
 
 .page-hero h1 {
@@ -786,32 +777,9 @@ cite {
     width: min(100% - 3rem, var(--content-width));
   }
 
-  .header-inner {
-    min-height: 145px;
-    gap: 2rem;
-    padding-top: 1.4rem;
-  }
-
-  .logo {
-    flex-basis: 125px;
-  }
-
-  .logo img {
-    width: 125px;
-    height: 125px;
-  }
-
-  .main-nav {
-    gap: 0.9rem 1.4rem;
-    padding-top: 2.6rem;
-  }
 
   .hero {
     min-height: 640px;
-  }
-
-  .hero-content {
-    padding-top: 10rem;
   }
 
   .review-grid {
@@ -881,6 +849,24 @@ cite {
     width: min(100% - 4rem, var(--content-width));
   }
 
+  .main-nav {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.9rem 1.4rem;
+    padding-top: 2.6rem;
+  }
+
+
+  .header-inner {
+    min-height: 145px;
+    gap: 2rem;
+    padding-top: 1.4rem;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
   .about-preview {
     padding: 3rem 0 5rem;
   }
@@ -900,11 +886,6 @@ cite {
   .logo img {
     width: 155px;
     height: 155px;
-  }
-
-  .main-nav {
-    padding-top: 3rem;
-    gap: 1.6rem;
   }
 
   .hero {

@@ -1,16 +1,5 @@
 .worthing-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/carpenters-in-worthing-hero.webp") center / cover no-repeat;
-}
-
-.worthing-hero .page-hero__overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.52);
-}
-
-.worthing-hero .page-hero__content {
-    position: relative;
-    z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url("../images/carpenters-in-worthing-hero.webp") center / cover no-repeat;
 }
 
 .worthing-intro {
@@ -210,6 +199,7 @@
 }
 
 @media (min-width: 768px) {
+
     .worthing-intro,
     .worthing-why,
     .worthing-services,
